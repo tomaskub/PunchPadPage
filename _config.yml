@@ -7,13 +7,12 @@ ios_app_country                           : pl                                  
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                     # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+                                                                                      
 
 app_icon                                  : assets/1024.png                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : PunchPad                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : Free!                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Measure worktime, get paid!
+app_price                                 : Avaliable for free!                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Measure how much you work, get paid like you should!
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -21,7 +20,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Tomasz Kubiak                                
-your_link                                 : https://emilbaehr.com                     
+your_link                                 : https://github.com/tomaskub                     
 your_city                                 : Lodz                                
 email_address                             : tomasz.m.kubiak@icloud.com
 github_username                           : tomaskub
@@ -31,7 +30,7 @@ features                                  :
 
   - title                                 : GitHub Pages Jekyll Theme
     description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+    fontawesome_icon_name                 : fa-regular fa-clock
     
   - title                                 : iPhone Device Preview
     description                           : Preview your app in the context of an iPhone device. Five different device colors included.
